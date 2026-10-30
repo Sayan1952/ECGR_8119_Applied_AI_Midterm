@@ -1,0 +1,58 @@
+{
+  "config": {
+    "N_PER_CLASS": 6000,
+    "train": 8400,
+    "test": 3600,
+    "CLS_EPOCHS": 10,
+    "SRRESNET_EPOCHS": 20,
+    "SRGAN_EPOCHS": 150,
+    "SR_BATCH": 16,
+    "CONTENT_W": 0.006,
+    "ADV_W": 0.001,
+    "SEED": 42
+  },
+  "classification": {
+    "Model A \u2192 real test": {
+      "Accuracy": 0.9728,
+      "Precision": 0.9666,
+      "Recall": 0.9794,
+      "F1": 0.973,
+      "AUC": 0.997
+    },
+    "Model B \u2192 SRGAN test": {
+      "Accuracy": 0.9272,
+      "Precision": 0.898,
+      "Recall": 0.9639,
+      "F1": 0.9298,
+      "AUC": 0.9843
+    },
+    "Model A \u2192 SRGAN test": {
+      "Accuracy": 0.925,
+      "Precision": 0.9386,
+      "Recall": 0.9094,
+      "F1": 0.9238,
+      "AUC": 0.9817
+    },
+    "Model B \u2192 real test": {
+      "Accuracy": 0.9569,
+      "Precision": 0.9322,
+      "Recall": 0.9856,
+      "F1": 0.9581,
+      "AUC": 0.9943
+    }
+  },
+  "image_quality": {
+    "Bicubic": {
+      "PSNR (dB)": 25.0155,
+      "SSIM": 0.728
+    },
+    "SRResNet": {
+      "PSNR (dB)": 26.4488,
+      "SSIM": 0.7787
+    },
+    "SRGAN": {
+      "PSNR (dB)": 21.6609,
+      "SSIM": 0.6086
+    }
+  }
+}

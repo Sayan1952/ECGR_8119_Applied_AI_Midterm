@@ -1,0 +1,5 @@
+,Accuracy,Precision,Recall,F1,AUC
+Model A → real test,0.9728,0.9666,0.9794,0.973,0.997
+Model B → SRGAN test,0.9272,0.898,0.9639,0.9298,0.9843
+Model A → SRGAN test,0.925,0.9386,0.9094,0.9238,0.9817
+Model B → real test,0.9569,0.9322,0.9856,0.9581,0.9943

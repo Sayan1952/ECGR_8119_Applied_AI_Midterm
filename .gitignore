@@ -1,0 +1,6 @@
+*.pt
+*.npz
+*.zip
+__pycache__/
+.ipynb_checkpoints/
+AppliedAI_Midterm_SRGAN*/
